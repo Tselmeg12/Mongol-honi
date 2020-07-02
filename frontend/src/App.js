@@ -44,7 +44,7 @@ function App() {
               <ul className="products">
                 {
                   
-                  data.products.map(product => 
+                  data.product.map(product => 
                     <li>
                   <div className="product">
                   <img className="product-image" src={product.image}alt="product"></img>

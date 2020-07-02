@@ -10,8 +10,8 @@ export default {
     rating: 4.5,
     numReviews:10
 
-},
-{
+    },
+    {
     name:'Slim Shirt',
     category: 'Pants',
     image:'/images/d1.jpg',
@@ -21,16 +21,25 @@ export default {
     numReviews:10
 
 
-},
-{ name:'Slim Shirt',
-category: '',
-image:'/images/d1.jpg',
-price: 62,
-brand: 'Nike',
-rating: 5.5,
-numReviews:9
-    
-},
+    },
+    { 
+    name:'Slim Shirt',
+    category: '',
+    image:'/images/d1.jpg',
+    price: 62,
+    brand: 'Nike',
+    rating: 5.5,
+    numReviews:9  
+    },
+    { 
+    name:'Slim Shirt',
+    category: '',
+    image:'/images/d1.jpg',
+    price: 62,
+    brand: 'Nike',
+    rating: 5.5,
+    numReviews:9  
+    },
     ]
 }
     
