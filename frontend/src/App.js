@@ -1,7 +1,8 @@
 import React from 'react';
 
 import './App.css';
-import data from './data'
+import data from './data';
+
 
 function App() {
  //**Ene dotor close and open button baigaa  */
@@ -42,29 +43,30 @@ function App() {
         <main className="main">
             <div className="content"></div>
               <ul className="products">
+          
                 {
                   
                   data.products.map(product => 
                     <li>
                   <div className="product">
                   <img className="product-image" src={product.image}alt="product"></img>
-                  <div className="product-name">
+                  <div className="product-name">{product.name}</div>
                     <a href="product.html">{product.name}</a>
                   </div>
                   <div className="product-brand">{product.brand}</div>
-                  <div className="product-price">1350$</div>
-                  <div className="product-rating">4.5$ Starts(10 Reviews)</div>
+                  <div className="product-price">{product.price}</div>
+                  <div className="product-rating">{product.rating}Stars</div>
                  </div>
               </li>)
             }
                   
                
-                
+                  </ul>
                 
              
       
               
-             </ul>
+            
 
 
       </main>
