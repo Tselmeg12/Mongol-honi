@@ -1,9 +1,9 @@
 import React from 'react';
-
-import './App.css';
 import data from './data';
-
-
+import { BrowserRouter, Router } from 'react-router-dom'
+import './App.css';
+import HomeScreen from './Screens/HomeScreen';
+import ProductScreen from './Screens/ProductScreen';
 function App() {
  //**Ene dotor close and open button baigaa  */
   const openMenu=()=>{
@@ -14,6 +14,7 @@ function App() {
   }
   /*look at deeshee */
   return (       
+    <BrowserRouter>
     <div className="grid-container">
     <header className="header">
       <div className="brand">
@@ -42,6 +43,8 @@ function App() {
      </aside>
         <main className="main">
             <div className="content"></div>
+            <Router path="/products?:id" component={ProductScreen}/>
+            <Router path="/" exact={true} component={HomeScreen}/>
               <ul className="products">
                 {
                   
@@ -65,6 +68,7 @@ function App() {
          All right reserved
      </footer>
  </div>
+ </BrowserRouter>
   );
 }
 

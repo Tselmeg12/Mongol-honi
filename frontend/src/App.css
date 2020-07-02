@@ -44,13 +44,12 @@ body{
   grid-area: main;
 }
 .footer{
+  grid-area: footer;
+  background-color: #203040;
+  color: #ffffff;
+  display: flex;
   justify-content: center;
-
-  padding-top: 12px;
-  font-size: 10px;
-  color: #ababab;
-  margin: 0;
-
+  align-items: center;
 }
 a{
   text-decoration: none;
