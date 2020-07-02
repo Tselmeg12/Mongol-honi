@@ -48,6 +48,61 @@ export default {
             rating: 5.5,
             numReviews:9  
             },
+            {
+                name:'Pants',   
+                category: 'Pants',
+                image:'/images/d1.jpg',
+                price: 60,
+                brand: 'Nike',
+                rating: 4.5,
+                numReviews:10
+            
+            
+            },
+            {
+                name:'Pants',   
+                category: 'Pants',
+                image:'/images/d1.jpg',
+                price: 60,
+                brand: 'Nike',
+                rating: 4.5,
+                numReviews:10
+            
+            
+            },
+            {
+                name:'Pants',   
+                category: 'Pants',
+                image:'/images/d1.jpg',
+                price: 60,
+                brand: 'Nike',
+                rating: 4.5,
+                numReviews:10
+            
+            
+            },
+            {
+                name:'Pants',   
+                category: 'Pants',
+                image:'/images/d1.jpg',
+                price: 60,
+                brand: 'Nike',
+                rating: 4.5,
+                numReviews:10
+            
+            
+            },
+            {
+                name:'Pants',   
+                category: 'Pants',
+                image:'/images/d1.jpg',
+                price: 60,
+                brand: 'Nike',
+                rating: 4.5,
+                numReviews:10
+            
+            
+            },
     ]
 }
     

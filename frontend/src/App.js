@@ -1,8 +1,9 @@
 import React from 'react';
-
-import './App.css';
 import data from './data';
-
+import {BrowserRouter,Route} from 'react-router-dom'
+import './App.css';
+import HomeScreen from './Screens/HomeScreen';
+import ProductScreen from './Screens/ProductScreen.js';
 
 function App() {
  //**Ene dotor close and open button baigaa  */
@@ -13,7 +14,8 @@ function App() {
     document.querySelector(".sidebar").classList.remove("open");
   }
   /*look at deeshee */
-  return (       
+  return (
+    <BrowserRouter>     
     <div className="grid-container">
     <header className="header">
       <div className="brand">
@@ -42,22 +44,9 @@ function App() {
      </aside>
         <main className="main">
             <div className="content"></div>
-              <ul className="products">
-                {
-                  
-                  data.product.map(product => 
-                    <li>
-                  <div className="product">
-                  <img className="product-image" src={product.image}alt="product"></img>
-                  <div className="product-name">{product.name}</div>
-                    <a href="product.html">{product.name}</a>
-                  </div>
-                  <div className="product-brand">{product.brand}</div>
-                  <div className="product-price">${product.price}</div>
-                  <div className="product-rating">{product.rating} Starts(10 {product.numReviews})</div>
-              </li>)
-            }              
-             </ul>
+              <Route path="/products/:id" component={ProductScreen}/>
+              <Route path="/" exact={true} component={HomeScreen}/>
+            
 
 
       </main>
@@ -65,6 +54,7 @@ function App() {
          All right reserved
      </footer>
  </div>
+ </BrowserRouter>  
   );
 }
 
