@@ -32,6 +32,46 @@ export default {
     numReviews:9
     
 },
+{ 
+    name:'short',
+    category: 'different sneaker',
+    image:'/images/d1.jpg',
+    price: 54,
+    brand: 'Nike',
+    rating: 5.5,
+    numReviews:9
+    
+},
+{ 
+    name:'short',
+    category: 'different sneaker',
+    image:'/images/d1.jpg',
+    price: 54,
+    brand: 'Nike',
+    rating: 5.5,
+    numReviews:9
+    
+},
+{ 
+    name:'short',
+    category: 'different sneaker',
+    image:'/images/d1.jpg',
+    price: 54,
+    brand: 'Nike',
+    rating: 5.5,
+    numReviews:9
+    
+},
+{ 
+    name:'short',
+    category: 'different sneaker',
+    image:'/images/d1.jpg',
+    price: 54,
+    brand: 'Nike',
+    rating: 5.5,
+    numReviews:9
+    
+},
 ]
 }
     
