@@ -53,10 +53,9 @@ function App() {
                     <a href="product.html">{product.name}</a>
                   </div>
                   <div className="product-brand">{product.brand}</div>
-                  <div className="product-price">1350$</div>
-                  <div className="product-rating">4.5$ Starts(10 Reviews)</div>
-                 </div>
-              </li>)
+                  <div className="product-price">${product.price}</div>
+                  <div className="product-rating">{product.rating} Starts(10 {product.numReviews})</div>
+                 </li>)
             }
                   
                
@@ -65,9 +64,7 @@ function App() {
              
       
               
-                  <div className="product-price">${product.price}</div>
-                  <div className="product-rating">{product.rating} Starts(10 {product.numReviews})</div>
-                 </li>)
+               
             }               
              </ul>
 
