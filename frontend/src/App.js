@@ -54,7 +54,6 @@ function App() {
                   <div className="product-brand">{product.brand}</div>
                   <div className="product-price">${product.price}</div>
                   <div className="product-rating">{product.rating} Starts(10 {product.numReviews})</div>
-                 </div>
                  </li>)
             }               
              </ul>
