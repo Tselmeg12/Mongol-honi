@@ -4,7 +4,7 @@ export default {
     name:'Slim Shirt',
     category: 'Shirts',
     image:'/images/d1.jpg',
-    price: 60,
+    price: 20,
     brand: 'Nike',
     rating: 4.5,
     numReviews:10
@@ -40,7 +40,7 @@ export default {
     name:'Slim Shirt',
     category: 'Pants',
     image:'/images/d1.jpg',
-    price: 62,
+    price: 54,
     brand: 'Nike',
     rating: 5.5,
     numReviews:9  
