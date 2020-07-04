@@ -8,8 +8,8 @@ function HomeScreen (props){
         <li>
       <div className="product">
       <img className="product-image" src={product.image}alt="product"></img>
-      <div className="product-name">{product.name}</div>
-        <a href="product.html">{product.name}</a>
+      <div className="product-name"></div>
+        <Link to ={'/product'+product._id}>{product.name}</Link>
       </div>
       <div className="product-brand">{product.brand}</div>
       <div className="product-price">${product.price}</div>

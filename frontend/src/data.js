@@ -11,7 +11,7 @@ export default {
     numReviews:10
     },
     {
-    _id:'123',
+    _id:'2',
     name:'Pants',   
     category: 'Pants',
     image:'/images/d1.jpg',
@@ -21,7 +21,7 @@ export default {
     numReviews:10
     },
     {
-    _id:'123',
+    _id:'3',
     name:'short',
     category: 'different sneaker',
     image:'/images/d1.jpg',
