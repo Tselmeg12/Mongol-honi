@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/Tselmeg12/Mongol-honi/issues"
   },
-  "homepage": "https://github.com/Tselmeg12/Mongol-honi#readme"
+  "homepage": "https://github.com/Tselmeg12/Mongol-honi#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "nodemon": "^2.0.4"
+  }
 }
