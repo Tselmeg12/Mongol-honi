@@ -2,6 +2,7 @@ import express from 'express';
 import data from './data';
 
 const app=express();
+//*ene heseg server heseg link iine zaaj ogood  portiine zaaj ogvol iim bolno//
 
 app.get ("/api/products", (req, res)=>{
     res.send(data.products);
