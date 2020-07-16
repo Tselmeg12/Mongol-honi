@@ -4,14 +4,15 @@ import axios from 'axios';
 
 function HomeScreen(props) {
 
-  const [products, setPRoduct] = useState([]);
+  const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    const fetchData = async () =>{
-      const {data} = await axios.get("/api/products");
-      setPRoduct(data);
+    const fetchData = async () => {
+      const { data } = await axios.get("/api/products");
+      setProducts(data);
     }
-    return () =>{
+    fetchData();
+    return () => {
       //
     };
   }, [])
