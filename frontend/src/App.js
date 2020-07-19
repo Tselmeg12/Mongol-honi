@@ -34,21 +34,16 @@ function App() {
             <li>
               <a href="index.html">Pants</a>
             </li>
-
             <li>
               <a href="index.html">Shirts</a>
             </li>
-
           </ul>
         </aside>
         <main className="main">
           <div className="content">
             <Route path="/product/:id" component={ProductScreen} />
             <Route path="/" exact={true} component={HomeScreen} />
-
-
           </div>
-
         </main>
         <footer className="footer">
           All right reserved.
@@ -57,5 +52,4 @@ function App() {
     </BrowserRouter>
   );
 }
-
 export default App;
