@@ -92,7 +92,7 @@ class SingleProduct extends Component {
                 <p className="manufacturer">
                   <span className="hide-content">Manufactured </span>By{' '}
                   <span className="word-mark">
-                    I<span className="love">Love</span>Lamp
+                    <span className="love">БАРАА</span>
                   </span>
                 </p>
                 {isThereACurrencyPrice()}

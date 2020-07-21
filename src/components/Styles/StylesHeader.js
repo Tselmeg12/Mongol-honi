@@ -42,12 +42,13 @@ const StylesHeader = ({ style, header }) => {
       }}>
       <div className="nav-container">
         <nav className="primary-nav">
-          <Link to="/products">Products</Link>
-          <Link to="/styles">Styles</Link>
+          <Link to="/products">TULGAA</Link>
+          <Link to="/styles">TSELMEG</Link>
         </nav>
         <div className="logo">
           <Link to="/" className="logo-link">
-            <span className="hide-content">I love lamp</span>
+            ass
+            <span className="hide-content">БАРАА</span>
             <div className="big-logo" aria-hidden="true">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 596 54">
                 <path fill="currentColor" d="M41.6,48.1V6.3h4.7v41.8H41.6z" />
@@ -129,7 +130,7 @@ c-1.5-1.6-3.7-2.5-5.9-2.4h-8.5V27.4z"
         <div className="content">
           <h1>
             {style}
-            <span className="hide-content"> styles</span>
+            <span className="hide-content"> Бараа</span>
           </h1>
         </div>
       </div>

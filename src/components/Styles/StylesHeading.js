@@ -6,7 +6,7 @@ const StylesHeading = ({ style }) => (
     <div className="content">
       <h1>
         {this.props.styles.style}
-        <span className="hide-content"> styles</span>
+        <span className="hide-content"> Бараа</span>
       </h1>
     </div>
   </div>
