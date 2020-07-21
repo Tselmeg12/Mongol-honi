@@ -5,17 +5,17 @@ import { useSelector, useDispatch } from 'react-redux';
 import { listProducts } from '../actions/productActions';
 
 function HomeScreen(props) {
+
   const productList = useSelector(state => state.productList);
   const { products, loading, error } = productList;
   const dispatch = useDispatch();
+
   useEffect(() => {
     dispatch(listProducts());
-
     return () => {
       //
     };
   }, [])
-
   return loading ? <div>Loading...</div> :
   error ? <div>{error}</div> :
     <ul className="products">
@@ -41,4 +41,5 @@ function HomeScreen(props) {
 
     </ul>
 }
-export default HomeScreen; 
+
+export default HomeScreen;

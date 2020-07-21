@@ -14,4 +14,3 @@ Demo : https://amazonaapp.herokuapp.com/
 - Video-08-React-Router-Product-Details
 - Video-09-Create-Node-Express-Server
 - Video-10-Fetch-Server-Data-Using-React-Hooks
-- Video-11-Manage-State-With-Redux
