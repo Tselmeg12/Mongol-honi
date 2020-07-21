@@ -19,9 +19,9 @@ const HomeHeader = props => (
 
     <div className="header-container">
       <div className="content">
-        <h1>Хамгийн хурдан Хамгийн шуурхай.</h1>
+        <h1>Хамгийн хурдан хамгиин шуурхай</h1>
         <Link to="/products" className="btn">
-        Бараа Захиалах
+          БАРАА
         </Link>
       </div>
     </div>
