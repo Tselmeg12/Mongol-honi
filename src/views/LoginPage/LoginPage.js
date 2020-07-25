@@ -75,6 +75,7 @@ export default function LoginPage(props) {
                       >
                         <i className={"fab fa-facebook"} />
                       </Button>
+                      
                       <Button
                         justIcon
                         href="#pablo"
@@ -144,8 +145,14 @@ export default function LoginPage(props) {
                   </CardFooter>
                 </form>
               </Card>
+                      
+                      
+              
+           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScrm6IUW8OPEDu0lnHNs0ZFKon1QSCY5oL6mD7jTJXEnnX1qw/viewform?embedded=true" width="640" height="1644" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                 
             </GridItem>
           </GridContainer>
+          
         </div>
         <Footer whiteFont />
       </div>
